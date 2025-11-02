@@ -2,24 +2,3 @@
 
 ![Web Animation](https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif)
 
-## Deskripsi
-
-**MongoAspNetProject** adalah aplikasi web fullstack yang dibangun menggunakan **ASP.NET Core** sebagai backend dan **MongoDB** sebagai database NoSQL.  
-Aplikasi ini dirancang untuk menampilkan dan mengelola data secara dinamis dengan struktur proyek yang rapi dan efisien.
-
-## Teknologi yang Digunakan
-| Komponen | Teknologi |
-|-----------|------------|
-| Backend | ASP.NET Core 8 (C#) |
-| Database | MongoDB |
-| Frontend | HTML, CSS, JavaScript |
-| Tools | Visual Studio / VS Code |
-
-## Fitur Utama
-- Koneksi langsung ke MongoDB  
-- Operasi CRUD (Create, Read, Update, Delete)  
-- Tampilan dinamis menggunakan View / HTML  
-- Struktur folder bersih dan mudah dikembangkan  
-- Desain responsif dan cepat diakses  
-
-## Arsitektur Sederhana
