@@ -1,7 +1,4 @@
-# 🎯 MongoAspNetProject - Web Fullstack dengan ASP.NET & MongoDB
-
-Aplikasi web fullstack yang dibangun menggunakan **ASP.NET Core** sebagai backend dan **MongoDB** sebagai database NoSQL.  
-Dirancang untuk menampilkan dan mengelola data secara dinamis dengan struktur proyek yang rapi dan efisien.
+# 🎯 MongoAspNetProject
 
 ---
 
