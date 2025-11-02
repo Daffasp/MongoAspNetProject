@@ -1,7 +1,6 @@
 # MongoAspNetProject
 
-![ASP.NET Animated](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif) 
-![MongoDB Animated](https://media.giphy.com/media/3o6gE5aYq8v1i8yZ0c/giphy.gif)
+![Web Animation](https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif)
 
 ## Deskripsi
 
