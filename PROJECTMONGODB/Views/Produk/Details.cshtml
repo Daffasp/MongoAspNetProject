@@ -1,0 +1,55 @@
+@model ProjectMongoDB.Models.Produk
+
+@{
+    ViewData["Title"] = "Detail Produk";
+}
+
+<style>
+    .detail-container { max-width: 700px; margin: 50px auto; padding: 0 20px; }
+    .card-custom { background: #fff; border-radius: 12px; box-shadow: 0 2px 20px rgba(0,0,0,.08); border: 1px solid #e3e6f0; overflow: hidden; }
+    .card-header-custom { background: linear-gradient(135deg,#8B4513 0%,#A0522D 100%); color:#fff; padding:25px 30px; text-align:center; }
+    .card-header-custom h2 { margin:0; font-size:24px; font-weight:600; }
+    .card-body-custom { padding: 35px 30px; }
+    .detail-row { display:flex; padding:14px 0; border-bottom:1px solid #f7fafc; }
+    .detail-row:last-child { border-bottom:none; }
+    .detail-label { flex:0 0 180px; font-weight:600; color:#2d3748; font-size:14px; text-transform:uppercase; letter-spacing:.5px; }
+    .detail-value { flex:1; color:#4a5568; font-size:15px; }
+    .button-group { display:flex; gap:12px; justify-content:flex-end; margin-top: 30px; }
+    .btn-custom { padding:12px 28px; border:none; border-radius:8px; font-size:15px; font-weight:600; cursor:pointer; transition:all .2s ease; text-decoration:none; display:inline-block; }
+    .btn-secondary-custom { background:#f7fafc; color:#4a5568; border:2px solid #e2e8f0; }
+    .btn-secondary-custom:hover { background:#edf2f7; }
+    .btn-primary-custom { background: linear-gradient(135deg,#8B4513 0%,#A0522D 100%); color:#fff; }
+</style>
+
+<div class="detail-container">
+    <div class="card-custom">
+        <div class="card-header-custom">
+            <h2>🍞 Detail Produk</h2>
+        </div>
+        <div class="card-body-custom">
+            <div class="detail-row">
+                <div class="detail-label">Nama Produk</div>
+                <div class="detail-value">@Model.NamaProduk</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Harga</div>
+                <div class="detail-value">Rp @Model.Harga.ToString("N0")</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Kategori</div>
+                <div class="detail-value">@Model.Kategori</div>
+            </div>
+            <div class="detail-row">
+                <div class="detail-label">Stok</div>
+                <div class="detail-value">@Model.Stok unit</div>
+            </div>
+
+            <div class="button-group">
+                <a asp-action="Index" class="btn-custom btn-secondary-custom">← Kembali</a>
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn-custom btn-primary-custom">✏️ Edit</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

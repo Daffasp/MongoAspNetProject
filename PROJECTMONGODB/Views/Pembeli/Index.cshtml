@@ -1,0 +1,242 @@
+@model IEnumerable<ProjectMongoDB.Models.Pembeli>
+
+@{
+    ViewData["Title"] = "Data Pembeli";
+}
+
+<div class="content-box">
+    <div class="page-header">
+        <div>
+            <h1>Data Pembeli</h1>
+            <p class="subtitle">Kelola data pembeli toko bakery</p>
+        </div>
+        <a href="/Pembeli/Create" class="btn-primary">
+            <span class="btn-icon">+</span>
+            <span>Tambah Data Baru</span>
+        </a>
+    </div>
+
+    <!-- Tabel Data Pembeli -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pembeli</th>
+                    <th>Email</th>
+                    <th>Alamat</th>
+                    <th>Kategori</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int no = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@no</td>
+                        <td>@item.Nama</td>
+                        <td>@item.Email</td>
+                        <td>@item.Alamat</td>
+                        <td>@item.Jurusan</td>
+                        <td class="action-cell">
+                            <a href="/Pembeli/Details/@item.Id" class="btn-action btn-detail" title="Lihat Detail">
+                                <span>👁</span>
+                            </a>
+                            <a href="/Pembeli/Edit/@item.Id" class="btn-action btn-edit" title="Edit Data">
+                                <span>✎</span>
+                            </a>
+                            <a href="/Pembeli/Delete/@item.Id" class="btn-action btn-delete" title="Hapus Data">
+                                <span>🗑</span>
+                            </a>
+                        </td>
+                    </tr>
+                    no++;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .content-box {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #f0f0f0;
+    }
+
+    .page-header h1 {
+        color: #8B4513;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+    }
+
+    .subtitle {
+        color: #666;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(139, 69, 19, 0.2);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(139, 69, 19, 0.3);
+        color: white;
+    }
+
+    .btn-icon {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    thead {
+        background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+    }
+
+    th {
+        color: white;
+        padding: 16px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    td {
+        padding: 14px 16px;
+        border-bottom: 1px solid #f0f0f0;
+        color: #333;
+        font-size: 15px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    tbody tr {
+        transition: all 0.2s ease;
+    }
+
+    tbody tr:hover {
+        background-color: #FFF8F0;
+        transform: scale(1.01);
+    }
+
+    tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    .action-cell {
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .btn-action {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        text-decoration: none;
+        margin: 0 3px;
+        transition: all 0.2s ease;
+        font-size: 16px;
+    }
+
+    .btn-action:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-detail {
+        background: #17a2b8;
+        color: white;
+    }
+
+    .btn-detail:hover {
+        background: #138496;
+    }
+
+    .btn-edit {
+        background: #ffc107;
+        color: #333;
+    }
+
+    .btn-edit:hover {
+        background: #e0a800;
+    }
+
+    .btn-delete {
+        background: #dc3545;
+        color: white;
+    }
+
+    .btn-delete:hover {
+        background: #c82333;
+    }
+
+    /* Responsive */
+    @@media (max-width: 768px) {
+        .page-header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        table {
+            font-size: 13px;
+        }
+
+        th,
+        td {
+            padding: 10px 8px;
+        }
+
+        .btn-action {
+            width: 32px;
+            height: 32px;
+            font-size: 14px;
+        }
+    }
+</style>

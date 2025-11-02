@@ -1,0 +1,38 @@
+@model ProjectMongoDB.Models.Bahan
+
+@{
+    ViewData["Title"] = "Detail Bahan";
+}
+
+<style>
+    .container { max-width: 700px; margin: 50px auto; padding: 0 20px; }
+    .card { background:#fff; border-radius:12px; box-shadow:0 2px 20px rgba(0,0,0,.08); border:1px solid #e3e6f0; overflow:hidden; }
+    .card-h { background: linear-gradient(135deg,#8B4513 0%, #A0522D 100%); color:#fff; padding:24px 28px; text-align:center; }
+    .card-b { padding: 30px; }
+    .row { display:flex; padding:14px 0; border-bottom:1px solid #f7fafc; }
+    .row:last-child { border-bottom:none; }
+    .label { flex:0 0 180px; font-weight:600; color:#2d3748; font-size:14px; text-transform:uppercase; letter-spacing:.5px; }
+    .value { flex:1; color:#4a5568; font-size:15px; }
+    .btns { display:flex; gap:12px; justify-content:flex-end; margin-top: 26px; }
+    .btn { padding:12px 26px; border:none; border-radius:8px; font-size:15px; font-weight:600; cursor:pointer; text-decoration:none; display:inline-block; }
+    .btn-sec { background:#f7fafc; color:#4a5568; border:2px solid #e2e8f0; }
+    .btn-pri { background: linear-gradient(135deg,#8B4513 0%, #A0522D 100%); color:#fff; }
+</style>
+
+<div class="container">
+    <div class="card">
+        <div class="card-h"><h2>📦 Detail Bahan</h2></div>
+        <div class="card-b">
+            <div class="row"><div class="label">Nama Bahan</div><div class="value">@Model.NamaBahan</div></div>
+            <div class="row"><div class="label">Satuan</div><div class="value">@Model.Satuan</div></div>
+            <div class="row"><div class="label">Stok</div><div class="value">@Model.Stok</div></div>
+            <div class="row"><div class="label">Minimum Stok</div><div class="value">@Model.MinimumStok</div></div>
+            <div class="btns">
+                <a asp-action="Index" class="btn btn-sec">← Kembali</a>
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-pri">✏️ Edit</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

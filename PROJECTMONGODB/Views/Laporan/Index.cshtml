@@ -1,0 +1,249 @@
+@model IEnumerable<ProjectMongoDB.Models.LaporanPenjualan>
+@{
+    ViewData["Title"] = "Laporan Penjualan";
+    var grandTotal = Model?.Sum(x => x.Total) ?? 0;
+}
+
+<style>
+    .page-container {
+        padding: 0;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        gap: 20px;
+    }
+
+    .header-left h2 {
+        color: #8B4513;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0 0 5px 0;
+    }
+
+    .header-subtitle {
+        color: #666;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .btn-add {
+        background: #C85A3A;
+        color: white;
+        padding: 14px 35px;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 0 2px 8px rgba(200, 90, 58, 0.3);
+        transition: all 0.3s ease;
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .btn-add:hover {
+        background: #B04E32;
+        box-shadow: 0 4px 12px rgba(200, 90, 58, 0.4);
+        color: white;
+    }
+
+    .table-container {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .report-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .report-table thead {
+        background: #8B4513;
+    }
+
+    .report-table thead th {
+        padding: 16px 20px;
+        text-align: left;
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .report-table thead th:last-child {
+        text-align: center;
+        width: 180px;
+    }
+
+    .report-table tbody tr {
+        border-bottom: 1px solid #f0f0f0;
+        transition: background 0.2s ease;
+    }
+
+    .report-table tbody tr:hover {
+        background: #FFF8E7;
+    }
+
+    .report-table tbody td {
+        padding: 18px 20px;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .btn-action {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        color: white;
+    }
+
+    .btn-view {
+        background: #17a2b8;
+    }
+
+    .btn-view:hover {
+        background: #138496;
+    }
+
+    .btn-edit {
+        background: #ffc107;
+    }
+
+    .btn-edit:hover {
+        background: #e0a800;
+    }
+
+    .btn-delete {
+        background: #dc3545;
+    }
+
+    .btn-delete:hover {
+        background: #c82333;
+    }
+
+    .tfoot-row td {
+        padding: 16px 20px;
+        font-weight: 700;
+        background: #FFF2D5;
+    }
+
+    @@media (max-width: 768px) {
+        .page-header {
+            flex-direction: column;
+        }
+
+        .btn-add {
+            width: 100%;
+        }
+    }
+</style>
+
+<div class="page-container">
+    <!-- Header -->
+    <div class="page-header">
+        <div class="header-left">
+            <h2>📊 Laporan Penjualan</h2>
+            <p class="header-subtitle">Ringkasan transaksi penjualan</p>
+        </div>
+        <div class="header-right">
+            <a asp-action="Create" class="btn-add">
+                <span>+</span> Tambah Data
+            </a>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-container">
+        @if (Model == null || !Model.Any())
+        {
+            <div style="text-align:center; padding:60px 20px;">
+                <div style="font-size:64px; opacity:0.3;">📉</div>
+                <h3 style="color:#5a3e1b; font-size:24px; font-weight:600; margin:10px 0;">Belum Ada Laporan</h3>
+                <p style="color:#6c757d;">Silakan tambahkan data penjualan terlebih dahulu</p>
+                <a asp-action="Create" class="btn-add">+ Tambah Laporan</a>
+            </div>
+        }
+        else
+        {
+            <table class="report-table">
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Nama Produk</th>
+                        <th>Jumlah</th>
+                        <th>Harga Satuan</th>
+                        <th>Total</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model)
+                    {
+                        <tr>
+                            <td>@r.Tanggal.ToString("yyyy-MM-dd")</td>
+                            <td>@r.NamaProduk</td>
+                            <td>@r.JumlahTerjual</td>
+                            <td>Rp @r.HargaSatuan.ToString("N0")</td>
+                            <td>Rp @r.Total.ToString("N0")</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <a asp-action="Edit" asp-route-id="@r.Id" class="btn-action btn-edit" title="Edit">✏️</a>
+                                    <a asp-action="Details" asp-route-id="@r.Id" class="btn-action btn-view"
+                                        title="Detail">👁️</a>
+                                    <a asp-action="Delete" asp-route-id="@r.Id" class="btn-action btn-delete"
+                                        title="Hapus">🗑️</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="tfoot-row">
+                        <td colspan="4" style="text-align:right;">Grand Total</td>
+                        <td colspan="2">Rp @grandTotal.ToString("N0")</td>
+                    </tr>
+                </tfoot>
+            </table>
+        }
+    </div>
+</div>
+
+<script>
+    // buat menu kiri aktif di "Laporan Penjualan"
+    document.addEventListener('DOMContentLoaded', function () {
+        var current = window.location.pathname.toLowerCase();
+        document.querySelectorAll('.menu-item').forEach(function (a) {
+            var href = (a.getAttribute('href') || '').toLowerCase();
+            if (href && (current === href || current.startsWith(href + '/'))) {
+                a.classList.add('active');
+            } else {
+                a.classList.remove('active');
+            }
+        });
+    });
+</script>

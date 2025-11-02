@@ -1,0 +1,153 @@
+@model ProjectMongoDB.Models.Pembeli
+
+@{
+    ViewData["Title"] = "Detail Pembeli";
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    .detail-container {
+        max-width: 700px;
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    .card-custom {
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e3e6f0;
+        overflow: hidden;
+    }
+
+    .card-header-custom {
+        background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+        color: white;
+        padding: 25px 30px;
+        border-bottom: none;
+    }
+
+    .card-header-custom h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .card-body-custom {
+        padding: 35px 30px;
+    }
+
+    .detail-row {
+        display: flex;
+        padding: 18px 0;
+        border-bottom: 1px solid #f7fafc;
+    }
+
+    .detail-row:last-child {
+        border-bottom: none;
+    }
+
+    .detail-label {
+        flex: 0 0 150px;
+        font-weight: 600;
+        color: #2d3748;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .detail-value {
+        flex: 1;
+        color: #4a5568;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 12px;
+        justify-content: flex-end;
+        margin-top: 35px;
+        padding-top: 25px;
+        border-top: 2px solid #f7fafc;
+    }
+
+    .btn-custom {
+        padding: 14px 32px;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .btn-secondary-custom {
+        background: #f7fafc;
+        color: #4a5568;
+        border: 2px solid #e2e8f0;
+    }
+
+    .btn-secondary-custom:hover {
+        background: #edf2f7;
+        border-color: #cbd5e0;
+        transform: translateY(-1px);
+        color: #4a5568;
+        text-decoration: none;
+    }
+
+    .btn-primary-custom {
+        background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+        color: white;
+        box-shadow: 0 4px 12px rgba(139, 69, 19, 0.4);
+    }
+
+    .btn-primary-custom:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(139, 69, 19, 0.5);
+        color: white;
+        text-decoration: none;
+    }
+</style>
+
+<div class="detail-container">
+    <div class="card-custom">
+        <div class="card-header-custom">
+            <h2>👤 Detail Pembeli</h2>
+        </div>
+        <div class="card-body-custom">
+            <div class="detail-row">
+                <div class="detail-label">Nama Lengkap</div>
+                <div class="detail-value">@Model.Nama</div>
+            </div>
+
+            <div class="detail-row">
+                <div class="detail-label">Email</div>
+                <div class="detail-value">@Model.Email</div>
+            </div>
+
+            <div class="detail-row">
+                <div class="detail-label">Alamat</div>
+                <div class="detail-value">@Model.Alamat</div>
+            </div>
+
+            <div class="detail-row">
+                <div class="detail-label">Kategori</div>
+                <div class="detail-value">@Model.Jurusan</div>
+            </div>
+
+            <div class="button-group">
+                <a href="/Pembeli" class="btn-custom btn-secondary-custom">← Kembali</a>
+                <a href="/Pembeli/Edit/@Model.Id" class="btn-custom btn-primary-custom">✏️ Edit Data</a>
+            </div>
+        </div>
+    </div>
+</div>

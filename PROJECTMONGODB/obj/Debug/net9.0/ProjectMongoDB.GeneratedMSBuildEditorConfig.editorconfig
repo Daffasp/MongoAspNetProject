@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectMongoDB
+build_property.RootNamespace = ProjectMongoDB
+build_property.ProjectDir = D:\PROJECTMONGODB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PROJECTMONGODB
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/PROJECTMONGODB/Views/Bahan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFoYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Bahan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFoYW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Bahan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFoYW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Bahan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFoYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Bahan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFoYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Laporan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwb3JhblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Laporan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwb3JhblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Laporan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwb3JhblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Laporan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwb3JhblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Laporan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwb3JhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Pembeli/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVtYmVsaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Pembeli/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVtYmVsaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Pembeli/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVtYmVsaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Pembeli/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVtYmVsaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Pembeli/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVtYmVsaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Produk/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Produk/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Produk/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Produk/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Produk/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROJECTMONGODB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
