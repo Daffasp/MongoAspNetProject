@@ -1,6 +1,6 @@
 # MongoAspNetProject
 
-![ASP.NET Logo](https://upload.wikimedia.org/wikipedia/commons/0/0e/.NET_Core_Logo.svg) 
+![ASP.NET Logo](https://upload.wikimedia.org/wikipedia/commons/d/d0/Microsoft_.NET_logo.png) 
 ![MongoDB Logo](https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg)
 
 ## Deskripsi
