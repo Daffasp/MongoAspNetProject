@@ -1,8 +1,6 @@
-<h1 align="center">🧩 MongoAspNetProject 🚀</h1>
+# 🧩 MongoAspNetProject 🚀
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=25&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=ASP.NET+Core+%2B+MongoDB+Integration;Building+Modern+Web+Apps;Stay+Tuned!+Coming+Soon!+🔥" alt="Typing Animation" />
-</p>
+![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00C2FF&width=600&lines=ASP.NET+Core+%2B+MongoDB+Integration;Building+Modern+Web+Apps;Stay+Tuned!+Coming+Soon!+🔥)
 
 ---
 
@@ -51,16 +49,4 @@ Saat ini project masih dalam tahap pengembangan — versi beta akan segera hadir
 > Tampilan aplikasi akan segera diupdate setelah versi beta dirilis.
 
 ---
-
-## 🧑‍💻 Cara Menjalankan (Nanti)
-
-```bash
-# Clone repository
-git clone https://github.com/username/MongoAspNetProject.git
-
-# Masuk ke folder project
-cd MongoAspNetProject
-
-# Jalankan aplikasi
-dotnet run
 
