@@ -84,7 +84,7 @@ Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok
 
 ---
 
-## 🔁 📊 Diagram Model Data
+##  📊 Diagram Model Data
 
 Sistem **Bakery Management System** menyimpan data di **MongoDB** dengan beberapa koleksi utama: **Admin, Pembeli, Produk, Stok, dan Laporan Penjualan**.  
 Setiap koleksi memiliki struktur dan relasi sederhana:  
