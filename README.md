@@ -2,7 +2,7 @@
 
 ![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=FF6FB5&width=700&lines=Bakery+Management+System;Built+with+ASP.NET+Core+%2B+MongoDB;Manage+Your+Bakery+Effortlessly+🍞)
 
-[![Made with ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-6.0-blueviolet)](#)
+[![Made with ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-9.0-blueviolet)](#)
 [![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-success)](#)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 
