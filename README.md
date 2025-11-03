@@ -71,14 +71,15 @@ Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok
 
 ---
 
-## 🔁 Nomor 3 — Diagram Bisnis Proses
+## 🔁 Diagram Bisnis Proses
 
 Berikut adalah alur bisnis proses dari sistem **Bakery Management System**:  
 Admin melakukan login terlebih dahulu, kemudian masuk ke **Dashboard Utama**.  
 Dari sini admin bisa memilih menu seperti **Data Pembeli**, **Produk Bakery**, **Stok Bahan**, dan **Laporan Penjualan**.  
 Setiap menu memiliki fungsi berbeda seperti **Lihat, Edit, atau Hapus**, dan semua perubahan akan tersimpan ke **MongoDB**.
 
----
 
 ### 📊 Diagram Bisnis Proses
 <img width="893" height="895" alt="PROJECT PA FATCAN DIAGRAMNYA-Halaman-1 drawio" src="https://github.com/user-attachments/assets/c84e7797-9408-4885-8ea9-6a7170a77419" />
+
+---
