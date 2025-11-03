@@ -39,27 +39,32 @@ Mulai dari pencatatan produk, pelanggan, stok bahan, hingga laporan penjualan �
 ---
 
 ### 🏠 Dashboard  
-![Mockup Dashboard](./images/mockup-dashboard.png)
+<img width="1686" height="1020" alt="Dashboard" src="https://github.com/user-attachments/assets/786d68d4-4dad-41c7-9d4d-04292f14e29a" />
+
 
 ---
 
 ### 👥 Data Pembeli  
-![Mockup Data Pembeli](./images/mockup-pembeli.png)
+<img width="1686" height="1020" alt="Data Pembeli" src="https://github.com/user-attachments/assets/b91c278b-8e1a-4833-bb57-4ba55c9b8ae9" />
+
 
 ---
 
 ### 🍰 Produk Bakery  
-![Mockup Produk](./images/mockup-produk.png)
+<img width="1686" height="1020" alt="Produk Bakery" src="https://github.com/user-attachments/assets/71b67c6a-1cae-4fc7-84a1-c45c7d9ca076" />
+
 
 ---
 
 ### 📊 Laporan Penjualan  
-![Mockup Laporan](./images/mockup-laporan.png)
+<img width="1686" height="1020" alt="LaporaNn Penjualan" src="https://github.com/user-attachments/assets/b2f90994-1e3c-4f39-9259-fe9bb292ef15" />
+
 
 ---
 
 ### 🧺 Stok Bahan  
-![Mockup Stok](./images/mockup-stok.png)
+<img width="1686" height="1020" alt="Stok Bahan" src="https://github.com/user-attachments/assets/c10a0030-dbaf-4cb1-93e1-b0c830bacbbf" />
+
 
 ---
 
