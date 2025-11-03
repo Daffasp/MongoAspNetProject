@@ -2,7 +2,6 @@
 
 ![Typing Animation](https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=00C2FF&width=700&lines=ASP.NET+Core+%2B+MongoDB+Integration;RESTful+API+%2F+CRUD+Endpoints;Lightweight+%26+Production-Ready)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Made with ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-6.0-informational)](#)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-success)](#)
 
@@ -24,16 +23,16 @@ Proyek ini menampilkan struktur API sederhana untuk operasi CRUD (Create, Read, 
 ---
 
 ## 🛠️ Teknologi
-- ASP.NET Core
-- MongoDB (Compass / Atlas)
-- C#
+- ASP.NET Core  
+- MongoDB (Compass / Atlas)  
+- C#  
 - (Opsional) Docker untuk containerization
 
 ---
 
 ## 🔧 Prasyarat
-- .NET SDK (6.0 / 7.0 — sesuaikan dengan project)
-- MongoDB (lokal atau Atlas)
+- .NET SDK (6.0 / 7.0 — sesuaikan dengan project)  
+- MongoDB (lokal atau Atlas)  
 - Git (opsional)
 
 ---
