@@ -9,8 +9,9 @@
 ---
 
 ## 🍰 Tentang Project
-**Bakery Management System** adalah aplikasi berbasis **ASP.NET Core** dan **MongoDB** yang dirancang untuk membantu toko bakery dalam mengelola operasional harian secara efisien.  
-Mulai dari pencatatan produk, pelanggan, stok bahan, hingga laporan penjualan — semuanya terintegrasi dalam satu sistem yang modern, ringan, dan mudah digunakan.  
+**Bakery Management System** adalah **website berbasis ASP.NET Core** dengan database **MongoDB**, yang dirancang untuk membantu toko bakery dalam mengelola kegiatan operasional harian secara efisien.  
+Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok bahan, serta laporan penjualan — semuanya dalam satu sistem yang modern, responsif, dan mudah digunakan.
+ 
 
 ---
 
@@ -29,9 +30,10 @@ Mulai dari pencatatan produk, pelanggan, stok bahan, hingga laporan penjualan �
 
 ## 🎨 Mockup / Desain Awal
 
-> Desain awal sistem **Bakery Management System** ini dibuat menggunakan **Balsamiq Wireframes** untuk menggambarkan tampilan dan alur sistem sebelum tahap pengembangan dilakukan.  
+> Bagian ini menampilkan hasil rancangan antarmuka (*mockup*) dari **Bakery Management System**.  
+> Seluruh desain dibuat menggunakan **Balsamiq Wireframes** sebagai panduan visual sebelum proses pengembangan website dimulai.  
+> Mockup ini membantu dalam menentukan struktur halaman, tata letak fitur, dan alur navigasi agar pengembangan lebih terarah dan konsisten.
 
----
 
 ### 🔐 Login Page  
 <img width="1686" height="1020" alt="Login" src="https://github.com/user-attachments/assets/30cd7309-2a6d-4c0b-85a1-2797db338e59" />
