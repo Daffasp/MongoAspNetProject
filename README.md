@@ -22,9 +22,9 @@ Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok
 | 🏠 **Dashboard Admin** | Menampilkan ringkasan data seperti total pembeli, produk, stok bahan, dan penjualan. |
 | 👥 **Manajemen Pembeli** | CRUD (Create, Read, Update, Delete) data pelanggan bakery dengan tampilan tabel interaktif. |
 | 🍞 **Manajemen Produk Bakery** | Kelola daftar produk, harga, stok, dan kategori produk dengan mudah. |
-| 📈 **Laporan Penjualan** | Catat transaksi dan tampilkan laporan penjualan harian atau bulanan secara otomatis. |
+| 📈 **Laporan Penjualan** | Tampilkan laporan penjualan harian atau bulanan secara otomatis. |
 | 🧺 **Manajemen Stok Bahan** | Pantau ketersediaan bahan baku untuk memastikan proses produksi berjalan lancar. |
-| ⚙️ **Pengaturan Admin** | Ubah informasi toko, profil admin, dan konfigurasi sistem sesuai kebutuhan. |
+| ⚙️ **Pengaturan (Coming Soon)** | Fitur untuk mengubah informasi toko, profil admin, dan konfigurasi sistem. Saat ini masih dalam tahap pengembangan. |
 
 ---
 
