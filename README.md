@@ -29,41 +29,41 @@ Mulai dari pencatatan produk, pelanggan, stok bahan, hingga laporan penjualan �
 
 ## 🎨 Mockup / Desain Awal
 
-> Berikut ini merupakan desain awal dari sistem **Bakery Management System**.  
-> Mockup ini dibuat menggunakan **Balsamiq Wireframes** untuk menggambarkan tampilan dan alur sistem sebelum tahap pengembangan dilakukan.
-
-| 🖼️ Halaman | 💬 Keterangan |
-|-------------|----------------|
-| 🔐 **Login Page** | Tampilan awal untuk autentikasi admin sebelum masuk ke sistem. |
-| 🏠 **Dashboard** | Menampilkan ringkasan data penjualan, jumlah produk, pembeli, dan stok bahan. |
-| 👥 **Data Pembeli** | Menampilkan tabel daftar pelanggan beserta fitur tambah, ubah, dan hapus. |
-| 🍰 **Produk Bakery** | Halaman pengelolaan data produk bakery seperti nama, harga, stok, dan kategori. |
-| 📊 **Laporan Penjualan** | Menampilkan daftar transaksi penjualan dalam bentuk tabel atau ringkasan grafik. |
-| 🧺 **Stok Bahan** | Digunakan untuk memantau ketersediaan bahan baku dan memperbarui jumlah stok. |
+> Desain awal sistem **Bakery Management System** ini dibuat menggunakan **Balsamiq Wireframes** untuk menggambarkan tampilan dan alur sistem sebelum tahap pengembangan dilakukan.  
 
 ---
 
-> 💡 **Catatan:**  
-> Silakan masukkan hasil *screenshot mockup* di bawah ini sesuai urutan halaman di atas.  
-> Format penyisipannya bisa seperti contoh berikut:
-
-```md
-### 🔐 Login Page
-![Mockup Login](<img width="1686" height="1020" alt="Login" src="https://github.com/user-attachments/assets/67c9e17a-3cea-4ea5-a935-7f2793e3b87b" />
+### 🔐 Login Page  
+![Mockup Login](<img width="1686" height="1020" alt="Login" src="https://github.com/user-attachments/assets/f5311187-bad7-4f70-809f-3a8f6560fa5d" />
 )
 
-### 🏠 Dashboard
-![Mockup Dashboard](<img width="1686" height="1020" alt="Dashboard" src="https://github.com/user-attachments/assets/c69cd0c2-7f38-49b8-9e8b-27aff737d968" />
-)
+---
 
-### 👥 Data Pembeli
+### 🏠 Dashboard  
+![Mockup Dashboard](./images/mockup-dashboard.png)
+
+---
+
+### 👥 Data Pembeli  
 ![Mockup Data Pembeli](./images/mockup-pembeli.png)
 
-### 🍰 Produk Bakery
+---
+
+### 🍰 Produk Bakery  
 ![Mockup Produk](./images/mockup-produk.png)
 
-### 📊 Laporan Penjualan
+---
+
+### 📊 Laporan Penjualan  
 ![Mockup Laporan](./images/mockup-laporan.png)
 
-### 🧺 Stok Bahan
+---
+
+### 🧺 Stok Bahan  
 ![Mockup Stok](./images/mockup-stok.png)
+
+---
+
+### 💻 Dibangun dengan Cinta oleh  
+**Daffa Sadewa Putra** ❤️  
+_Universitas Pelita Bangsa - Teknik Informatika_
