@@ -34,7 +34,7 @@ Mulai dari pencatatan produk, pelanggan, stok bahan, hingga laporan penjualan â€
 ---
 
 ### ğŸ” Login Page  
-![Mockup Login](<img width="1686" height="1020" alt="Login" src="https://github.com/user-attachments/assets/f5311187-bad7-4f70-809f-3a8f6560fa5d" />
+![Mockup Login](./images/<img width="1686" height="1020" alt="Login" src="https://github.com/user-attachments/assets/30cd7309-2a6d-4c0b-85a1-2797db338e59" />
 )
 
 ---
