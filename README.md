@@ -83,3 +83,17 @@ Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok
 <img width="893" height="895" alt="PROJECT PA FATCAN DIAGRAMNYA-Halaman-1 drawio" src="https://github.com/user-attachments/assets/c84e7797-9408-4885-8ea9-6a7170a77419" />
 
 ---
+---
+
+## 🔁 Nomor 4 — Diagram Model Data
+
+Sistem **Bakery Management System** menyimpan data di **MongoDB** dengan beberapa koleksi utama: **Admin, Pembeli, Produk, Stok, dan Laporan Penjualan**.  
+Setiap koleksi memiliki struktur dan relasi sederhana:  
+
+- **Admin**: Menyimpan data login dan identitas admin.  
+- **Pembeli**: Menyimpan informasi pembeli seperti nama, alamat, dan kontak.  
+- **Produk**: Menyimpan detail produk bakery, harga, dan kategori.  
+- **Stok**: Menyimpan jumlah bahan baku tersedia.  
+- **Laporan Penjualan**: Menyimpan catatan transaksi penjualan.  
+
+---
