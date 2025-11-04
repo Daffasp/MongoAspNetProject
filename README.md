@@ -112,3 +112,15 @@ Setiap koleksi memiliki struktur dan relasi sederhana:
 <img width="807" height="973" alt="PROJECT PA FATCAN DIAGRAMNYA-Halaman-2 drawio" src="https://github.com/user-attachments/assets/c5eb2b47-65d5-446a-af86-b85000e153f9" />
 
 ---
+
+## 👥 Skema Team Project
+
+Berikut adalah pembagian peran dalam pengerjaan project **Bakery Management System** berbasis **ASP.NET dan MongoDB**.  
+Struktur tim dibuat agar proses pengembangan berjalan efektif, terarah, dan setiap anggota memiliki tanggung jawab yang jelas.
+
+---
+
+### 📊 Diagram Skema Team
+<img width="926" height="347" alt="PROJECT PA FATCAN DIAGRAMNYA-Halaman-3 drawio" src="https://github.com/user-attachments/assets/2a14265b-60db-4ec7-ab93-e3e4ef6300a9" />
+
+---
