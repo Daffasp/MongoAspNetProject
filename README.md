@@ -12,7 +12,7 @@
 
 | Nama                | NIM          | Kelas     | Mata Kuliah           |
 |----------------------|--------------|------------|------------------------|
-| Daffa Sadewa Putra   | (isi NIM kamu) | TI.23.A5  | Pemrograman Visual     |
+| Daffa Sadewa Putra   | (312310463) | TI.23.A5  | Pemrograman Visual     |
 
 ---
 ## 🍰 Tentang Project
