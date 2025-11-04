@@ -8,10 +8,22 @@
 
 ---
 
+## 👨‍💻 Identitas Project
+
+| Nama                | NIM          | Kelas     | Mata Kuliah           |
+|----------------------|--------------|------------|------------------------|
+| Daffa Sadewa Putra   | (isi NIM kamu) | TI.23.A5  | Pemrograman Visual     |
+
+---
 ## 🍰 Tentang Project
 **Bakery Management System** adalah **website berbasis ASP.NET Core** dengan database **MongoDB**, yang dirancang untuk membantu toko bakery dalam mengelola kegiatan operasional harian secara efisien.  
 Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok bahan, serta laporan penjualan — semuanya dalam satu sistem yang modern, responsif, dan mudah digunakan.
- 
+
+---
+## 🎥 YouTube (Coming Soon)
+![YouTube Animation](https://readme-typing-svg.herokuapp.com?font=Roboto&size=22&duration=3000&pause=1000&color=FF0000&width=700&lines=🎬+Coming+Soon+on+YouTube...;Stay+Tuned+for+Demo+Video+🍩)
+
+[![YouTube Channel](https://img.shields.io/badge/Subscribe-red?logo=youtube&logoColor=white)](#)
 
 ---
 
