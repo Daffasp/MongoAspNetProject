@@ -20,10 +20,14 @@
 Website ini memudahkan pengguna dalam mengatur data pembeli, produk bakery, stok bahan, serta laporan penjualan — semuanya dalam satu sistem yang modern, responsif, dan mudah digunakan.
 
 ---
-## 🎥 YouTube (Coming Soon)
-![YouTube Animation](https://readme-typing-svg.herokuapp.com?font=Roboto&size=22&duration=3000&pause=1000&color=FF0000&width=700&lines=🎬+Coming+Soon+on+YouTube...;Stay+Tuned+for+Demo+Video+🍩)
+## 🎥 YouTube
 
-[![YouTube Channel](https://img.shields.io/badge/Subscribe-red?logo=youtube&logoColor=white)](#)
+![YouTube Animation](https://readme-typing-svg.herokuapp.com?font=Roboto&size=22&duration=3000&pause=1000&color=FF0000&width=600&lines=🎬+Watch+on+YouTube...;Enjoy+the+Demo+Video+🍩)
+
+### 🔗 Watch on YouTube  
+[![YouTube Channel](https://img.shields.io/badge/🎥%20Watch%20Now-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/NPIlvHpWO5I)
+
+> 🎞️ *Tonton video demo proyek ini di channel YouTube saya. Jangan lupa klik Subscribe dan aktifkan loncengnya!* 🔔
 
 ---
 
